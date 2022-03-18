@@ -4,6 +4,7 @@ import { minToH } from "../utils/helper";
 import { RiTimer2Line } from "../utils/icons";
 import styled from "styled-components";
 import { useRecipeContext } from "../context/recipe-context";
+import breakfast from "../assets/images/breakfast.svg";
 
 const RecipeCard = (recipe) => {
   const { listView } = useRecipeContext();
@@ -49,7 +50,7 @@ const RecipeCard = (recipe) => {
           </div>
         </div>
         <div className="recipe-content">
-          <img src="../assets/images/undraw_breakfast_psiw.svg" alt="default" />
+          <img src={breakfast} alt="default" />
           <Link to={`/recipes/${recipeId}`} className="btn btn-grid-detail">
             Details
           </Link>
@@ -68,10 +69,9 @@ const StyleGridWrapper = styled.div`
     font-size: 1.2rem;
   }
   .recipe-card-grid {
-    margin-top: 20px;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    background-color:#fff;
   }
   .recipe-card-grid img {
     width: 100%;
@@ -80,6 +80,7 @@ const StyleGridWrapper = styled.div`
   .recipe-infos {
     display: flex;
     margin: 10px 0;
+    padding: 0 40px;
   }
   .recipe-info-group {
     display: flex;
@@ -100,6 +101,9 @@ const StyleGridWrapper = styled.div`
   }
   .btn-grid-detail:hover {
     background-color: var(--clr-palette-5);
+  }
+  h3{
+    padding: 40px 0 0 40px;
   }
   @media screen and (min-width: 800px) {
     .recipe-card-grid {

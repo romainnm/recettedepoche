@@ -32,7 +32,7 @@ const Recipes = () => {
   }
 
   return (
-    <main>
+    <main className="recipes-container">
       <div className="center-content">
         <div className="recipe-list">
           <div className="search-filter-group">

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useRecipeContext } from "../context/recipe-context";
 import { RandomRecipe } from "../components";
 import { IoDiceOutline, AiFillCloseCircle } from "../utils/icons";
+import splasheating from "../assets/images/splasheating.svg";
 
 const Home = () => {
   const { getRandomRecipe, random_recipe, loading, isModalOpen, closeModal } =
@@ -35,7 +36,7 @@ const Home = () => {
             </div>
           </div>
           <img
-            src="./assets/images/undraw_eating_together_re_ux62.svg"
+            src={splasheating}
             alt="splashed"
             className="splashed-image"
           />

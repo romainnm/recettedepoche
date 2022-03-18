@@ -118,7 +118,7 @@ nav {
   align-items: center;
 }
 .nav-bottom {
-  background-image: url("../public/assets/images/wave.svg");
+  background-image: url("./assets/images/wave.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right 0px top -40px;
@@ -280,7 +280,7 @@ Recipes Page - search
   position: relative;
   right: 40px;
   -webkit-appearance: none;
-  content: URL("../public/assets/images/xmark.svg");
+  content: URL("./assets/images/xmark.svg");
   cursor: pointer;
   width: 10px;
 }
@@ -468,6 +468,17 @@ Login Page
   }
   .nav-bottom {
     background-position: right 0px top -60px;
+  }
+  .recipes-container{
+    width: 100vw;
+    position:absolute;
+    top:140px;
+    
+  }
+  .recipe-list{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px 40px;
+    border-radius: 20px;
   }
 }
 @media screen and (min-width: 1000px) {
