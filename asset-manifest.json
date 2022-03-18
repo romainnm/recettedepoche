@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/recettedepoche/static/css/main.d3d062a6.css",
+    "main.js": "/recettedepoche/static/js/main.ef761024.js",
+    "index.html": "/recettedepoche/index.html",
+    "static/media/xmark.svg": "/recettedepoche/static/media/xmark.14e23e64eedeef549926.svg",
+    "static/media/wave.svg": "/recettedepoche/static/media/wave.3f337422d0356e4aa509.svg",
+    "main.d3d062a6.css.map": "/recettedepoche/static/css/main.d3d062a6.css.map",
+    "main.ef761024.js.map": "/recettedepoche/static/js/main.ef761024.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3d062a6.css",
+    "static/js/main.ef761024.js"
+  ]
+}
