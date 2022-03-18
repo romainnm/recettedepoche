@@ -1,4 +1,4 @@
-# Recette de Poche (recipe in pocket)
+# Recette de Poche (pocket recipe)
 
 Recette de poche is an app that contains recipes I have gathered over the years. It also has a feature to randomize a recipe for the days I am uninspired!
 
