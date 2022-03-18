@@ -27,7 +27,10 @@ const RecipeCard = (recipe) => {
             </div>
           </div>
           <div className="right-group">
-            <Link to={`/recipes/${recipeId}`} className="btn-details">
+            <Link
+              to={`/recettedepoche/recipes/${recipeId}`}
+              className="btn-details"
+            >
               +Details
             </Link>
           </div>
@@ -51,7 +54,10 @@ const RecipeCard = (recipe) => {
         </div>
         <div className="recipe-content">
           <img src={breakfast} alt="default" />
-          <Link to={`/recipes/${recipeId}`} className="btn btn-grid-detail">
+          <Link
+            to={`/recettedepoche/recipes/${recipeId}`}
+            className="btn btn-grid-detail"
+          >
             Details
           </Link>
         </div>

@@ -14,11 +14,11 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<RegisterUser />} />
-        <Route path="/recipes" element={<Recipes />} />
-        <Route path="/recipes/:id" element={<SingleRecipe />} />
+        <Route path="/recettedepoche" element={<Home />} />
+        <Route path="/recettedepoche/login" element={<Login />} />
+        <Route path="/recettedepoche/register" element={<RegisterUser />} />
+        <Route path="/recettedepoche/recipes" element={<Recipes />} />
+        <Route path="/recettedepoche/recipes/:id" element={<SingleRecipe />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>

@@ -23,7 +23,7 @@ const Home = () => {
           <div className="home-grid-left">
             <h2>What's for dinner?</h2>
             <div className="button-container">
-              <Link to={"/recipes"} className="btn btn-browse">
+              <Link to={"/recettedepoche/recipes"} className="btn btn-browse">
                 Browse Recipes
               </Link>
               <button
@@ -35,11 +35,7 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <img
-            src={splasheating}
-            alt="splashed"
-            className="splashed-image"
-          />
+          <img src={splasheating} alt="splashed" className="splashed-image" />
         </div>
         <div
           className={

@@ -7,14 +7,14 @@ const Header = () => {
     <header>
       <nav>
         <div className="center-nav nav-top">
-          <Link to={"/"} className="logo">
+          <Link to={"/recettedepoche"} className="logo">
             <IoFastFoodOutline className="logo-icon" />
             <h1>
               Recette <br />
               de poche
             </h1>
           </Link>
-          <Link to={"/login"} className="login-icon">
+          <Link to={"/recettedepoche/login"} className="login-icon">
             <RiAdminLine />
           </Link>
         </div>

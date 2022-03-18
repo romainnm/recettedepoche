@@ -5,7 +5,7 @@ const Error = () => {
   return (
     <main className="construction">
       <p>Error</p>
-      <Link to="/">Go to Home Page</Link>
+      <Link to="/recettedepoche">Go to Home Page</Link>
       <img src={warning} alt="404" className="construction" />
     </main>
   );

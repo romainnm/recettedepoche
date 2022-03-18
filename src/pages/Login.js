@@ -5,7 +5,7 @@ const Login = () => {
   return (
     <main className="construction">
       <p>Page Under Construction</p>
-      <Link to="/">Go to Home Page</Link>
+      <Link to="/recettedepoche">Go to Home Page</Link>
       <img
         src="../assets/images/undraw_warning_cyit.svg"
         alt="404"

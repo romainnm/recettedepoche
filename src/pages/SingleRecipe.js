@@ -20,7 +20,7 @@ const SingleRecipe = () => {
       <div className="center-content">
         <RecipeDetails {...recipe} />
         <div className="button-container">
-          <Link to={"/recipes"} className="btn btn-back">
+          <Link to={"/recettedepoche/recipes"} className="btn btn-back">
             Back
           </Link>
         </div>
