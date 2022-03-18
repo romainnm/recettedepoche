@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/recettedepoche/static/css/main.8e55df19.css",
-    "main.js": "/recettedepoche/static/js/main.1616dfbd.js",
+    "main.css": "/recettedepoche/static/css/main.6799599d.css",
+    "main.js": "/recettedepoche/static/js/main.7bb0c768.js",
     "static/media/warning.svg": "/recettedepoche/static/media/warning.73723be01780da597989df7ad8faaf8b.svg",
     "static/media/splasheating.svg": "/recettedepoche/static/media/splasheating.0439d8b2c24a717eb9605b606f0db5d9.svg",
     "static/media/breakfast.svg": "/recettedepoche/static/media/breakfast.169b4a55203db47429f171119172dba7.svg",
     "index.html": "/recettedepoche/index.html",
     "static/media/xmark.svg": "/recettedepoche/static/media/xmark.14e23e64eedeef549926.svg",
     "static/media/wave.svg": "/recettedepoche/static/media/wave.3f337422d0356e4aa509.svg",
-    "main.8e55df19.css.map": "/recettedepoche/static/css/main.8e55df19.css.map",
-    "main.1616dfbd.js.map": "/recettedepoche/static/js/main.1616dfbd.js.map"
+    "main.6799599d.css.map": "/recettedepoche/static/css/main.6799599d.css.map",
+    "main.7bb0c768.js.map": "/recettedepoche/static/js/main.7bb0c768.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e55df19.css",
-    "static/js/main.1616dfbd.js"
+    "static/css/main.6799599d.css",
+    "static/js/main.7bb0c768.js"
   ]
 }
