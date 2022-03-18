@@ -469,20 +469,22 @@ Login Page
   .nav-bottom {
     background-position: right 0px top -60px;
   }
-  .recipes-container{
+  .recipes-container, .single-recipe-container, .construction {
     width: 100vw;
-    position:absolute;
-    top:140px;
-    
+    position: absolute;
+    top: 140px;
   }
-  .recipe-list{
-    background-color: rgba(255, 255, 255, 0.1);
+  .recipe-list, .single-wrap {
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 40px 40px;
     border-radius: 20px;
   }
+  .recipe-overlay {
+    margin-top: -250px;
+  }
 }
 @media screen and (min-width: 1000px) {
-   .nav-bottom {
+  .nav-bottom {
     background-position: right 0px top -100px;
   }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import warning from "../assets/images/warning.svg"
 
 const Login = () => {
   return (
@@ -7,7 +8,7 @@ const Login = () => {
       <p>Page Under Construction</p>
       <Link to="/recettedepoche">Go to Home Page</Link>
       <img
-        src="../assets/images/undraw_warning_cyit.svg"
+        src={warning}
         alt="404"
         className="construction"
       />

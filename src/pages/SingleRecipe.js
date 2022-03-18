@@ -16,13 +16,15 @@ const SingleRecipe = () => {
     return <div>Loading...</div>;
   }
   return (
-    <main>
+    <main className="single-recipe-container">
       <div className="center-content">
-        <RecipeDetails {...recipe} />
-        <div className="button-container">
-          <Link to={"/recettedepoche/recipes"} className="btn btn-back">
-            Back
-          </Link>
+        <div className="single-wrap">
+          <RecipeDetails {...recipe} />
+          <div className="button-container">
+            <Link to={"/recettedepoche/recipes"} className="btn btn-back">
+              Back
+            </Link>
+          </div>
         </div>
       </div>
     </main>
