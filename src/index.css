@@ -226,7 +226,7 @@ Recipes Page - No results
 ==========================
 */
 .no-results {
-  padding: 20px 0 0 0;
+  padding: 100px 0 0 0;
 }
 .hungry {
   width: 100%;
@@ -433,6 +433,9 @@ Login Page
     display: block;
     margin: 20px auto 0 auto;
   }
+  .no-results {
+  padding: 200px 0 0 0;
+}
 }
 @media screen and (min-width: 821px) {
   .nav-bottom {

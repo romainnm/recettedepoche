@@ -1,10 +1,11 @@
 import React from "react";
+import hungry from "../assets/images/hungry.jpeg";
 
 const NoResults = () => {
   return (
     <div className="no-results">
       <p className="hungry-text">No result found!</p>
-      <img src="../assets/images/hungry.jpeg" alt="hungry" className="hungry" />
+      <img src={hungry} alt="hungry" className="hungry" />
     </div>
   );
 };
