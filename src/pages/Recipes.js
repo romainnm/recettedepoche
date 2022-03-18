@@ -14,7 +14,7 @@ const Recipes = () => {
 
   if (filtered_recipes.length === 0) {
     return (
-      <main>
+      <main className="recipes-container">
         <div className="center-content">
           <div className="search-filter-group">
             <Search />
