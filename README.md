@@ -37,8 +37,4 @@ Recette de poche is an app that contains recipes I have gathered over the years.
 
 ## :cactus: About Me :cactus:
 
-Hello world! I am **Romain** and I have a background in **web design**.
-
-I am currently trying to strenghen my **front-end** skills by learning **JavaScript & React** throught The Odin Project which has great resources for self-learning!
-
-Happy learning everyone! :v:
+Hello world! I am **Romain** and I build stuff for the web!
