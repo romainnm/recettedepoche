@@ -31,9 +31,9 @@ Recette de poche is an app that contains recipes I have gathered over the years.
 - swagger-ui
 - yaml
 
-**Live demo:** [Click here to see the demo](https://romainnm.github.io/recettedepoche) :heart:
+~**Live demo:** [Click here to see the demo](https://romainnm.github.io/recettedepoche) :heart:~
 
-**Api:** [Click here to see the demo](https://recette-de-poche.herokuapp.com/api-docs/)
+~**Api:** [Click here to see the demo](https://recette-de-poche.herokuapp.com/api-docs/)~
 
 ## :cactus: About Me :cactus:
 
